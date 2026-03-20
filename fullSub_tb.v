@@ -12,7 +12,7 @@ module fullSub_tb();
             {S2,S1,S0} = i;
             I = 1'b1;
             #10 $display("I = %b, S2 = %b, S1 = %b, S0 = %b, D = %b, Bo = %b", I,S2,S1,S0,D,Bo);
-            I = 1'b1;
+            I = 1'b0;
             #10 $display("I = %b, S2 = %b, S1 = %b, S0 = %b, D = %b, Bo = %b", I,S2,S1,S0,D,Bo);
         end
     end
