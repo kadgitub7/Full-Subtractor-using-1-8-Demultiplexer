@@ -8,6 +8,7 @@ module fullSub(
     output D,
     output Bo
     );
+    wire Y0, Y1, Y2, Y3, Y4, Y5, Y6, Y7;
     
     eightOneDeMultiplexer(1'b1, S2,S1,S0,I,Y0,Y1,Y2,Y3,Y4,Y5,Y6,Y7);
     
